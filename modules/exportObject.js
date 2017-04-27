@@ -1,4 +1,4 @@
-const private = 'Secret information';
+const secret = 'Secret information';
 const firstName = 'Ben';
 const lastName = 'Franklin';
 const fullName = (first, last) => {
@@ -6,7 +6,7 @@ const fullName = (first, last) => {
 };
 
 module.exports = {
-    firstName: firstName,
-    lastName: lastName,
-    fullName: fullName
+    firstName,
+    lastName,
+    fullName
 };

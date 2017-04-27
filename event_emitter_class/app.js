@@ -12,3 +12,4 @@ myEmitter.on('fileDeleted', function() {
 
 myEmitter.emit('userCreated');
 myEmitter.emit('fileDeleted');
+
