@@ -1,4 +1,4 @@
-console.log(process);
+// console.log(process);
 
 // console.log(process.argv);
 
@@ -19,10 +19,10 @@ console.log(process);
 /**
  * use the event emitter 'on' method.
  */ 
-// console.log('Program is running');
-// setTimeout(() => {}, 2000);
-// process.on('exit', () => {
-//     console.log(`OK ${process.argv[2]}, let's get out of here!`);
-// });
+console.log('Program is running');
+setTimeout(() => {}, 2000);
+process.on('exit', () => {
+    console.log(`OK ${process.argv[2]}, let's get out of here!`);
+});
 
 
